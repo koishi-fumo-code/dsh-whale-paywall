@@ -1,0 +1,104 @@
+{
+  "generatedFrom": "DSH shipped src/client/locales.ts",
+  "langs": [
+    "zh",
+    "en",
+    "ja",
+    "de",
+    "es",
+    "fr",
+    "pt",
+    "ru"
+  ],
+  "fields": {
+    "newSessionLabel": {
+      "zh": "新建会话",
+      "en": "New session",
+      "ja": "新規セッション",
+      "de": "Neue Sitzung",
+      "es": "Nueva sesión",
+      "fr": "Nouvelle séance",
+      "pt": "Nova sessão",
+      "ru": "Новая сессия"
+    },
+    "newSessionText": {
+      "zh": "新会话",
+      "en": "New Session",
+      "ja": "新規セッション",
+      "de": "Neue Sitzung",
+      "es": "Nueva sesión",
+      "fr": "Nouvelle séance",
+      "pt": "Nova sessão",
+      "ru": "Новая сессия"
+    },
+    "archive": {
+      "zh": "归档会话",
+      "en": "Archive session",
+      "ja": "セッションをアーカイブ",
+      "de": "Archivsitzung",
+      "es": "Sesión de archivo",
+      "pt": "Sessão de arquivamento",
+      "ru": "Архив сеанса"
+    },
+    "archiveAction": {
+      "zh": "归档会话",
+      "en": "Archive",
+      "ja": "アーカイブ",
+      "de": "Archiv",
+      "es": "Archivo",
+      "fr": "Archiver",
+      "pt": "Arquivo",
+      "ru": "Архив"
+    },
+    "settings": {
+      "zh": "设置",
+      "en": "Settings",
+      "ja": "設定",
+      "de": "Einstellungen",
+      "es": "Configuración",
+      "fr": "Paramètres",
+      "pt": "Configurações",
+      "ru": "Настройки"
+    },
+    "settingsTrigger": {
+      "zh": "设置",
+      "en": "Settings",
+      "ja": "設定",
+      "de": "Einstellungen",
+      "es": "Configuración",
+      "fr": "Paramètres",
+      "pt": "Configurações",
+      "ru": "Настройки"
+    },
+    "enableToggle": {
+      "zh": "启用 {name}",
+      "en": "Enable {name}",
+      "ja": "{name}を有効化",
+      "de": "Aktivieren Sie {name}",
+      "es": "Habilitar {name}",
+      "fr": "Activer {name}",
+      "pt": "Ativar {name}",
+      "ru": "Включить {name}"
+    },
+    "install": {
+      "zh": "安装",
+      "en": "Install",
+      "ja": "インストール",
+      "de": "Installieren",
+      "es": "Instalar",
+      "fr": "Installer",
+      "pt": "Instalar",
+      "ru": "Установить"
+    },
+    "close": {
+      "zh": "关闭",
+      "en": "Close",
+      "ja": "閉じる",
+      "de": "Schließen",
+      "es": "Cerrar",
+      "fr": "Fermer",
+      "pt": "Fechar",
+      "ru": "Закрыть"
+    }
+  }
+}

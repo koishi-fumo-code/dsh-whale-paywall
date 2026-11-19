@@ -1,0 +1,56 @@
+{
+  "name": "dsh-whale-paywall",
+  "version": "0.1.0",
+  "description": "Simulated paywall and coin mall for DSH: charges whale coins for starting a session, archiving, downloading plugins, opening Settings, enabling plugins, web search and switching models, with a mall inside Settings. No real money is involved. / 模拟收费与鲸元商场：给新建会话、归档、下载插件、进入设置、启用插件、联网搜索、切换模型加上鲸元计费与弹窗，商场设在设置里。",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "scripts",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "paywall",
+    "mall",
+    "simulation",
+    "playful"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishi-fumo-code/dsh-whale-paywall.git"
+  },
+  "homepage": "https://github.com/koishi-fumo-code/dsh-whale-paywall#readme",
+  "bugs": {
+    "url": "https://github.com/koishi-fumo-code/dsh-whale-paywall/issues"
+  },
+  "author": "koishi-fumo-code",
+  "license": "MIT"
+}

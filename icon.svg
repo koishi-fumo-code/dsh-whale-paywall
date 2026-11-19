@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <!-- 一枚鲸元：外圈金色圆环 + 中间的鲸鱼尾 -->
+  <circle cx="18" cy="18" r="15" fill="#f2b431"/>
+  <circle cx="18" cy="18" r="15" fill="none" stroke="#b9861d" stroke-width="2"/>
+  <circle cx="18" cy="18" r="11.5" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.75"/>
+  <path d="M13 21.5c0-4 2.4-6.6 5-6.6 1.6 0 2.6.7 3.3 1.7l2.5-1.5-1.2 3.1c.5.9.8 2 .8 3.3 0 .6-.2 1-.6 1-.3 0-.6-.2-.6-.7 0-1.4-.7-2.4-1.8-2.9-1 .9-2.4 1.4-4.1 1.4h-1.1l.6 2.2h-2.6z"
+        fill="#7a4f0a"/>
+  <circle cx="20.6" cy="16.6" r="0.85" fill="#f2b431"/>
+</svg>
